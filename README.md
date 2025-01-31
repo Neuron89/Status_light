@@ -130,6 +130,6 @@ So i attached the 3v, GND, and D0 to the board of the HA button. verified everyt
 ![[IMG_6982.jpeg]]![[IMG_6981.jpeg]]![[IMG_6980.jpeg]]
 
 <p align=“center”>
-<img src=“[assets/Blue.jpeg](https://github.com/Neuron89/Status_light/blob/0c719101da65a219a0f154cdc739c9fe3e3b166d/assets/Blue.jpeg)“ width=“300">
+<img src=assets/Blue.jpeg width=300>
 </p>
 
