@@ -131,5 +131,7 @@ So i attached the 3v, GND, and D0 to the board of the HA button. verified everyt
 
 <p align=“center”>
 <img src=assets/Blue.jpeg width=300>
+  <img src=assets/Red.jpeg width=300>
+  <img src=assets/Green.jpeg width=300>
 </p>
 
