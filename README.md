@@ -123,7 +123,7 @@ After I breadboarded the controller and LED, i started to think about form facto
 the 3V the battery was outputting wasn't enough to support everything. the ESP32 would work but couldn't pass enough to actually light the LED like i wanted. 
 
 <p align=“center”>
-<img src=assets/pinout.jpeg width=300>
+<img src=assets/pinout.png width=300>
 </p>
 
 So i attached the 3v, GND, and D0 to the board of the HA button. verified everything worked, stuck it back together and now i have a functional button that also shows the color of the lamp at her desk. Its not perfect but for spending about 2-3 hours between soldering, programming, and testing, id consider it a success! I will (maybe/hopefully) return to this to make a more professional version with a light diffuser and just have the entire object 
