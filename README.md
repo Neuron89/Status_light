@@ -27,7 +27,7 @@ I thought having a small cube of light on her desk that's the same as the lamp o
 
 After I breadboarded the controller and LED, i started to think about form factor. At fist i thought i would just use a button and have it wedged in-between the HA button and the ESP32, then i figured "the HA button as a button in it, why not just steal that signal". After soldering a line and checking polarity, i figured id go one step farther and also just steal the battery (at this point i wondered if i should actually just make the ESP32 board itself be the button for both as it could support Matter and Zigbee. project for another day), this......worked......but not really. 
 <p align=center>
-` In this image, I wired the postive and negative incorrect`
+In this image, I wired the postive and negative incorrect
 </p>
 <p align=center>
 <img src=assets/CircutBoard.jpeg width=500>
