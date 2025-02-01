@@ -11,7 +11,8 @@ I thought having a small cube of light on her desk that's the same as the lamp o
 
 - ESP32 Board
 - Push Button connected to GPIO 0 (or any preferred GPIO)
-- RGB LED connected to GPIOs 25, 26, and 27 (or any preferred GPIOs)
+    - I used the button attached to the other switch
+- RGB LED connected to GPIOs 2, 3, and 4  (or any preferred GPIOs)
 - [CircutPython Firmware Installed](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/web-serial-esptool)
 
 # GPIO pinout
