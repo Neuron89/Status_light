@@ -117,23 +117,23 @@ while True:
 
 After I breadboarded the controller and LED, i started to think about form factor. At fist i thought i would just use a button and have it wedged in-between the HA button and the ESP32, then i figured "the HA button as a button in it, why not just steal that signal". After soldering a line and checking polarity, i figured id go one step farther and also just steal the battery (at this point i wondered if i should actually just make the ESP32 board itself be the button for both as it could support Matter and Zigbee. project for another day), this......worked......but not really. 
 ` In this image, I wired the postive and negative incorrect`
-<p align=“center”>
+<p align=center>
 <img src=assets/CircutBoard.jpeg width=300>
 </p>
 the 3V the battery was outputting wasn't enough to support everything. the ESP32 would work but couldn't pass enough to actually light the LED like i wanted. 
 
-<p align=“center”>
+<p align=center>
 <img src=assets/pinout.png>
 </p>
 
 So i attached the 3v, GND, and D0 to the board of the HA button. verified everything worked, stuck it back together and now i have a functional button that also shows the color of the lamp at her desk. Its not perfect but for spending about 2-3 hours between soldering, programming, and testing, id consider it a success! I will (maybe/hopefully) return to this to make a more professional version with a light diffuser and just have the entire object 
-<p align=“center”>
+<p align=center>
 <img src=assets/Button1.jpeg width=300>
   <img src=assets/Button2.jpeg width=300>
   <img src=assets/Button3.jpeg width=300>
 </p>
 
-<p align=“center”>
+<p align=center>
 <img src=assets/Blue.jpeg width=300>
   <img src=assets/Red.jpeg width=300>
   <img src=assets/Green.jpeg width=300>
